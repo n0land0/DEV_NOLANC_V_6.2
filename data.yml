@@ -1,6 +1,13 @@
 defaultStorageMapping: DEV_RAW
 installedPackages: {}
-jobs: {}
+jobs:
+  Job-1:
+    excludeSelector: ""
+    id: 1
+    includeSelector: "{ location: CDB name: PARTSUPP } OR { location: CDB name: REGION } OR { location: CDB name: SUPPLIER } OR { location: DEV_RAW name: STG_CUSTOMER } OR { location: DEV_RAW name: STG_DAILY_14_TOTAL_SHORT } OR { location: DEV_RAW name: STG_LINEITEM }"
+    name: New Job
+    steps: []
+    subgraphs: []
 locations:
   CDB:
     mappingDefinitions:

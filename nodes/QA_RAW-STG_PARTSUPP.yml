@@ -11,7 +11,7 @@ steps:
       deployEnabled: true
       description: ""
       isMultisource: false
-      locationName: DEV_RAW
+      locationName: QA_RAW
       materializationType: table
       metadata:
         appliedNodeTests: []
