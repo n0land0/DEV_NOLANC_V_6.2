@@ -5,8 +5,8 @@ locations:
   CDB:
     mappingDefinitions:
       "2":
-        database: ""
-        schema: ""
+        database: COALESCE_SAMPLE_DATABASE
+        schema: TPCH_SF001
   DEV_RAW:
     mappingDefinitions:
       "2":
