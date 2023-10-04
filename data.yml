@@ -17,8 +17,8 @@ locations:
   DEV_RAW:
     mappingDefinitions:
       "2":
-        database: ""
-        schema: ""
+        database: DEV_NOLANC_V_6_0
+        schema: DEV_RAW
   QA_RAW:
     mappingDefinitions:
       "2":
